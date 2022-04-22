@@ -2,13 +2,13 @@
 
 # IAC, Terraform and Installation
 
-## Thiết kế cơ sở hạ tầng
+## Infrastructure
 
-* Traditional IT :Việc thiết kế cơ sở hạ tầng phức tạp, việc mở rộng tốn thời gian như mua thêm phần cứng, mở rộng phần cứng phần mềm trên nhiều máy chủ khác nhau ...
-* Cloud console : Đơn giản hơn truyền thống, nhưng vẫn mất thời gian nếu có quá nhiều máy chủ khác nhau, làm nhiều việc lặp lại
-* With programatic API(Python, Java, Shell): Nhiều team viết các script khác nhau, không có cách tiếp cận thống nhất để cùng giải quyết một bài toán.
+* Traditional IT : Complex infrastructure design, time-consuming expansion such as buying more hardware, expanding software hardware on many different servers...
+* Cloud console : Simpler than traditional, but still takes time if there are too many different servers, doing a lot of repetitive work
+* With programatic API (Python, Java, Shell): Many teams write different scripts, there is no unified approach to solve the same problem.
 * Infrastructure as Code(IAC): Resource provisioning using Code
-    * Nhiều ưu điểm
+    * Many advantages
 
 ## Terraform
 * One of most popular tool for infrastructure provisioning
@@ -69,7 +69,7 @@
 
 # No SQL DB in GCP
 
-# Download cource Material
+# Download course Material
 Attached Slides + Codes as resources
 
 Or
