@@ -53,9 +53,44 @@
 
 # Terraform with GCP
 
+Google provider
+```
+ terraform { required_providers {
+    google = {
+      source = "hashicorp/google"
+      version = "3.84.0"
+} }
+}
+provider "google" {
+  project, region, zone
+}
+```
+
+Connect with GCP : Prefer use Services account
+
 # Google cloud store
+Object storage solution in GCP
+Unstructured Data storage
+* Image
+* Video
+* Binary file, etc
+
+Use in terraform
+```
+resource "google_storage_bucket" "gcs1"{
+    name = "bucketname"
+}
+```
 
 # GCP Networking
+Virtual Private Network(VPC)
+How to use 
+```
+resource "google_compute_network" "auto_vpc_tf" {
+  name                    = "auto-vpc-tf"
+  auto_create_subnetworks = true
+}
+```
 
 # Google cloud compute
 
