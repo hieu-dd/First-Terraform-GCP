@@ -83,7 +83,7 @@ resource "google_storage_bucket" "gcs1"{
 ```
 
 # GCP Networking
-Virtual Private Network(VPC)
+Virtual Private Network(VPC)<br>
 How to use 
 ```
 resource "google_compute_network" "auto_vpc_tf" {
